@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Costco Tipping Service</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Reset + Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(180deg, #ffffff, #f4f6f9);
+      color: #222;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      padding: 30px 20px;
+      animation: fadeIn 0.8s ease;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .logo {
+      display: block;
+      width: 180px;
+      margin: 0 auto 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #c41230; /* Costco red */
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 20px auto;
+      border: 4px solid #007aff;
+    }
+
+    .message {
+      text-align: center;
+      font-size: 16px;
+      margin: 15px 0 30px;
+      color: #555;
+    }
+
+    .section-title {
+      font-weight: bold;
+      color: #c41230;
+      font-size: 18px;
+      margin-bottom: 10px;
+      border-left: 4px solid #007aff;
+      padding-left: 10px;
+    }
+
+    .details {
+      background-color: #f8f9fb;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 25px;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .details strong {
+      color: #000;
+    }
+
+    .payment-img {
+      display: block;
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .note {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 15px;
+      color: #c41230;
+      font-weight: bold;
+      background-color: #fff3f3;
+      padding: 12px;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 500px) {
+      .container {
+        padding: 20px 15px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      .profile-img {
+        width: 120px;
+        height: 120px;
+      }
+
+      .section-title {
+        font-size: 16px;
+      }
+
+      .message {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="costco6.png" alt="Costco Logo" class="logo" />
+
+    <h1>Tipping Service</h1>
+
+    <img src="person1.jpg" alt="Worker Photo" class="profile-img" />
+
+    <p class="message">
+      This Costco team member is a dedicated worker supporting his family. Your kindness can make a real difference. Thank you for your generosity!
+    </p>
+
+    <div>
+      <div class="section-title">Bank Details</div>
+      <div class="details">
+        <strong>Name:</strong> Sameer Muhammed<br />
+        <strong>Account Number:</strong> 003469233<br />
+        <strong>Bank Type:</strong> Halifax<br />
+        <strong>Sort Code:</strong> 12-34-56
+      </div>
+
+      <div class="section-title">Contact Info</div>
+      <div class="details">
+        <strong>Phone:</strong> 07123 456789<br />
+        <strong>Email:</strong> smmed@gmail.com
+      </div>
+
+      <div class="section-title">Accepted Payment Methods</div>
+      <img src="pay1.jpg" alt="Accepted Payments" class="payment-img" />
+    </div>
+
+    <p class="note">Please note: Minimum tip accepted is £5. Thank you for your support!</p>
+  </div>
+</body>
+</html>
+
