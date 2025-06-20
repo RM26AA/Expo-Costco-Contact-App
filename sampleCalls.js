@@ -1,0 +1,86 @@
+// sampleCalls.js
+
+const sampleCalls = [
+  {
+    id: '1',
+    name: 'Ali Raza',
+    isMissed: false,
+    location: 'WhatsApp Audio',
+    day: 'Monday',
+    hasName: true,
+  },
+  {
+    id: '2',
+    name: 'Fatima Khan',
+    isMissed: true,
+    location: 'Pakistan',
+    day: 'Yesterday',
+    hasName: true,
+  },
+  {
+    id: '3',
+    name: '',
+    isMissed: false,
+    location: 'Pakistan',
+    day: 'Tuesday',
+    hasName: false,
+  },
+  {
+    id: '4',
+    name: 'Ahmed Siddiqui',
+    isMissed: true,
+    location: 'WhatsApp Audio',
+    day: 'Wednesday',
+    hasName: true,
+  },
+  {
+    id: '5',
+    name: 'Zainab Malik',
+    isMissed: false,
+    location: 'Pakistan',
+    day: 'Friday',
+    hasName: true,
+  },
+  {
+    id: '6',
+    name: '',
+    isMissed: true,
+    location: 'Pakistan',
+    day: 'Yesterday',
+    hasName: false,
+  },
+  {
+    id: '7',
+    name: 'Bilal Qureshi',
+    isMissed: false,
+    location: 'WhatsApp Audio',
+    day: 'Thursday',
+    hasName: true,
+  },
+  {
+    id: '8',
+    name: 'Mehwish Ali',
+    isMissed: true,
+    location: 'Pakistan',
+    day: 'Monday',
+    hasName: true,
+  },
+  {
+    id: '9',
+    name: '',
+    isMissed: false,
+    location: 'Pakistan',
+    day: 'Saturday',
+    hasName: false,
+  },
+  {
+    id: '10',
+    name: 'Hassan Javed',
+    isMissed: true,
+    location: 'WhatsApp Audio',
+    day: 'Today',
+    hasName: true,
+  },
+];
+
+export default sampleCalls;
